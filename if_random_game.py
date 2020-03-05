@@ -1,3 +1,5 @@
+import random
+
 chislo = int(input('Загадайте число от 1 до 4'))
 comp = random.randint(1,4)
 if chislo == comp:
